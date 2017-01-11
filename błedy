@@ -7,7 +7,11 @@
  +do zrobiaenia:
  +
  +- program nie widzi stringa w stringu ( funkcjia timer1_tick)
- +i nie odpala timera2
- +-funkcja zukająca strony
- +-blokowanie ustawień aby nie można ich było zmienac po wystartowaniu programu
- +-guzika start wymaga 2X wcisniecia przy pierwszym właczeniu aby aplikacja ruszyla
+ + odpala timera2 ale za każdym razem
+ + funkcja porównująca strony (null w alist/plist)
+ + tooltip nie działa
+ + messagebox (zaraz będę to robił)
+ + wyłączanie programu( wyskakują cały czas messageboxy)
+ 
+ 
+
